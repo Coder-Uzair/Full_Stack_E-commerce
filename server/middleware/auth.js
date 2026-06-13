@@ -1,6 +1,5 @@
 import { ApiError } from '../utils/ApiError.js';
 import { catchAsync } from '../utils/catchAsync.js';
-import { verifyAccessToken } from '../utils/tokens.js';
 import { ROLES } from '../config/constants.js';
 import { User } from '../models/User.js';
 
