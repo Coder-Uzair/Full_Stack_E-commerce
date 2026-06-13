@@ -2,13 +2,6 @@ import bcrypt from 'bcryptjs';
 import { User } from '../models/User.js';
 import { ApiError } from '../utils/ApiError.js';
 import {
-  signAccessToken,
-  signRefreshToken,
-  verifyRefreshToken,
-  randomToken,
-  hashToken,
-} from '../utils/tokens.js';
-import {
   sendEmail,
   verificationEmail,
   resetPasswordEmail,
